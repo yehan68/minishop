@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  width: 100%;
+  color: #333;
+}
+
+.van-nav-bar {
+  .van-icon {
+    color: #000;
+  }
+  .van-nav-bar__title {
+    font-weight: 700;
+  }
+}
+
+.van-sidebar-item--select {
+  background-color: #fff !important;
+  color: #ef8e48 !important;
+  &::before {
+    background-color: #ef8e48;
+  }
+}
+
+.pullup-tips {
+  padding: 20px;
+  text-align: center;
+  color: #999;
+}
+
+.van-tabbar {
+  z-index: 9;
+}
